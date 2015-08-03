@@ -1,10 +1,11 @@
 class MoviesController < ApplicationController
-  def index
 
+  def index
+    @movies = Movie.all
   end
 
   def new
-
+    @movie = Movie.new
 
   end
 
@@ -15,5 +16,8 @@ class MoviesController < ApplicationController
   def  show
 
   end
+
+
+
 
 end
