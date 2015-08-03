@@ -5,6 +5,7 @@ class MoviesController < ApplicationController
 
   def new
 
+
   end
 
   def edit
