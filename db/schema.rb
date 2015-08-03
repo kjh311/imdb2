@@ -34,7 +34,6 @@ ActiveRecord::Schema.define(version: 20150427192437) do
     t.text     "summary"
     t.text     "youtube_embed_id"
     t.text     "thumbnail"
-
     t.datetime "created_at"
     t.datetime "updated_at"
   end
