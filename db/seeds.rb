@@ -2,15 +2,15 @@ ActiveRecord::Base.transaction do
   # Users
   brooks = User.create(
     first_name: 'Brooks',
-    last_name: 'Swinnerton',
+    last_name: 'Swinnerton'
   )
   otto = User.create(
     first_name: 'Otto',
-    last_name: 'Swinnerton',
+    last_name: 'Swinnerton'
   )
   luna = User.create(
     first_name: 'Luna',
-    last_name: 'Swinnerton',
+    last_name: 'Swinnerton'
   )
 
   # Actors
