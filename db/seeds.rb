@@ -51,21 +51,21 @@ ActiveRecord::Base.transaction do
     summary: 'The adventures of Gustave H, a legendary concierge at a famous hotel from the fictional Republic of Zubrowka between the first and second World Wars, and Zero Moustafa, the lobby boy who becomes his most trusted friend.',
     youtube_embed_id: '1Fg5iWmQjwk',
     thumbnail: 'the_grand_budapest_hotel.jpg',
-    actors: ['ralph_fiennes', 'jeff_goldblum']
+    actors: [ralph_fiennes, jeff_goldblum]
   )
   wish_i_was_here = Movie.create(
     title: 'Wish I was Here',
     summary: 'Aidan Bloom is a 35-year-old man who finds himself at major crossroads, which forces him to examine his life, his career, and his family.',
     youtube_embed_id: 'aCponfeWNOI',
     thumbnail: 'wish_i_was_here.jpg',
-    actors: ['zach_braff', 'kate_hudson']
+    actors: [zach_braff, kate_hudson]
   )
   a_night_at_the_roxbury = Movie.create(
     title: 'A Night at the Roxbury',
     summary: 'Two dim-witted brothers dream of owning their own dance club or at least getting into the coolest and most exclusive club in town, The Roxbury.',
     youtube_embed_id: 'Xvl3qJe9L9g',
     thumbnail: 'a_night_at_the_roxbury.jpg',
-    actors: ['will_ferrel', 'chris_kattan']
+    actors: [will_ferrel, chris_kattan]
   )
 
   # Reviews
