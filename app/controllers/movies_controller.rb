@@ -15,7 +15,6 @@ class MoviesController < ApplicationController
    redirect_to movies_path
   else
    render 'new'
-
   end
  end
 
